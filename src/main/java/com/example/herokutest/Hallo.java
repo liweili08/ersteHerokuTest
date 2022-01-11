@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hallo {
     @GetMapping
     public String sayHallo(){
-        return "Hallo, wie geht's?";
+        return "Hallo, wie geht's? Lange nicht gesehen!";
     }
 }
